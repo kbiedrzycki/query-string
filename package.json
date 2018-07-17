@@ -1,5 +1,5 @@
 {
-	"name": "@kbiedrzycki/query-string",
+	"name": "query-string-ws",
 	"version": "6.2.0",
 	"description": "Parse and stringify URL query strings",
 	"license": "MIT",
@@ -9,6 +9,7 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
 	},
+	"private": false,
 	"engines": {
 		"node": ">=6"
 	},

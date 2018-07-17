@@ -1,6 +1,6 @@
 {
-	"name": "query-string",
-	"version": "6.1.0",
+	"name": "@kbiedrzycki/query-string",
+	"version": "6.2.0",
 	"description": "Parse and stringify URL query strings",
 	"license": "MIT",
 	"repository": "sindresorhus/query-string",
@@ -16,8 +16,11 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"dist/index.js",
+		"dist/index.map"
 	],
+	"main": "dist/index.js",
 	"keywords": [
 		"browser",
 		"querystring",
